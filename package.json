@@ -2,8 +2,10 @@
   "name": "sd-0x-block14-project-movie-card-library-crud",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MatheusMartino97.github.io/16_sd-09-project-movie-card-library-crud/",
   "dependencies": {
     "acorn": ">=7.1.1",
+    "gh-pages": "^3.2.0",
     "minimist": ">=1.2.3",
     "mutationobserver-shim": "^0.3.7",
     "react": "^16.11.0",
