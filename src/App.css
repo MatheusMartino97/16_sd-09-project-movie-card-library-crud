@@ -1,5 +1,111 @@
 body {
   background-color: whitesmoke;
   box-sizing: border-box;
+  padding: 10px;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/3666683/thumb/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+#movie-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+#movie-list p {
+  text-align: justify;
+}
+
+#movie-list a {
+  color: white;
+}
+
+.movie-card {
+  width: 30%;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px ;
+  border: 5px solid silver;
+  border-radius: 5px;
+  background-color: slategray;
+  position: relative;
+}
+
+.text-box, .link-box, .image-box h1 {
+  padding: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+}
+
+.add-div {
+  text-align: center;
+}
+
+.add-div a {
+  border: 5px solid silver;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: slategray;
+  color: white;
+}
+
+#new-movie-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.movie-from {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px ;
+  border: 5px solid silver;
+  border-radius: 5px;
+  background-color: slategray;
+  padding: 10px;
+  position: relative;
+}
+
+.movie-from button {
+  margin-top: 10px;
+}
+
+.movie-from label {
+  padding: 10px;
+}
+
+.movie-from .input {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.loading {
+  color: white;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px ;
+  border: 5px solid silver;
+  border-radius: 5px;
+  background-color: slategray;
+  padding: 10px;
+  position: relative;
+}
+
+.details-links {
+  display: flex;
+  flex-direction: column;
+}

@@ -5,7 +5,7 @@ class Loading extends Component {
   render() {
     // const { loadingMessage } = this.props;
 
-    return <div>Carregando...</div>;
+    return <h1 className="loading">Carregando...</h1>;
   }
 }
 
